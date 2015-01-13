@@ -2,4 +2,4 @@
 
 Artwork to match: ![Blueprint](blueprint.png)
 
-Working deliverable: [http://bholben.github.io/Bluepring/](http://bholben.github.io/Blueprint/)
+Working deliverable: [http://bholben.github.io/Blueprint/](http://bholben.github.io/Blueprint/)
