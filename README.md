@@ -1,3 +1,5 @@
-Quick bonus project.
+## Quick bonus project. ##
 
-![Blueprint](blueprint.png)
+Artwork to match: ![Blueprint](blueprint.png)
+
+Working deliverable: [http://bholben.github.io/Bluepring/](http://bholben.github.io/Blueprint/)
