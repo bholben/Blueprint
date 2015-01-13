@@ -7,22 +7,22 @@ head
   link(rel="stylesheet", href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css")
   link(rel="stylesheet", href="main.css")
 
-mixin section(date, time, heading, para)
+mixin recipePost(date, time, client, heading, para)
   section
     div.timestamp
-      p.date 4/10/13
-      p.time 18:30
+      p.date #{date}
+      p.time #{time}
     div.wrapper
       div.content
-        h2 Ricebean black-eyed pea
+        h2 #{heading}
         article
           p #{para}
       div.circleLarge
         div.circleSmall
-          i.fa.fa-mobile
+          i.fa(class=client)
       div.triangle
 
 body
-  +section('4/10/13', '18:30', 'Ricebean black-eyed pea', "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error earum aperiam natus ipsam ad aspernatur quaerat? Eius nihil maxime cum ullam distinctio ex, excepturi esse ut ea? Maxime doloremque, minus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque exercitationem dolor velit commodi sunt libero autem culpa, quae excepturi est nulla beatae nam explicabo quaerat delectus repudiandae nisi ipsum veritatis.")
-  +section('4/11/13', '12:04', 'Greens radish arugula', "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error earum aperiam natus ipsam ad aspernatur quaerat? Eius nihil maxime cum ullam distinctio ex, excepturi esse ut ea? Maxime doloremque, minus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque exercitationem dolor velit commodi sunt libero autem culpa, quae excepturi est nulla beatae nam explicabo quaerat delectus repudiandae nisi ipsum veritatis.")
+  +recipePost('4/10/13', '18:30', 'fa-mobile', 'Ricebean black-eyed pea', "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error earum aperiam natus ipsam ad aspernatur quaerat? Eius nihil maxime cum ullam distinctio ex, excepturi esse ut ea? Maxime doloremque, minus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque exercitationem dolor velit commodi sunt libero autem culpa, quae excepturi est nulla beatae nam explicabo quaerat delectus repudiandae nisi ipsum veritatis.")
+  +recipePost('4/11/13', '12:04', 'fa-desktop', 'Greens radish arugula', "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error earum aperiam natus ipsam ad aspernatur quaerat? Eius nihil maxime cum ullam distinctio ex, excepturi esse ut ea? Maxime doloremque, minus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque exercitationem dolor velit commodi sunt libero autem culpa, quae excepturi est nulla beatae nam explicabo quaerat delectus repudiandae nisi ipsum veritatis.")
 
