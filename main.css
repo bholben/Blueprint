@@ -1,0 +1,89 @@
+html {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  box-sizing: border-box;
+  color: white; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+h2 {
+  font-size: 28px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  padding-bottom: 15px;
+  margin-top: 0; }
+
+.fa-desktop {
+  font-size: 22px !important;
+  padding: 11px 8px; }
+
+.fa-mobile {
+  font-size: 36px !important;
+  padding: 3px 12px; }
+
+section {
+  width: 1020px;
+  margin-top: 30px; }
+  section .timestamp {
+    float: left;
+    width: 170px; }
+    section .timestamp .date, section .timestamp .time {
+      text-align: right;
+      padding-right: 40px; }
+    section .timestamp .date {
+      margin: 0;
+      font-size: 16px;
+      color: #A4C0D1; }
+    section .timestamp .time {
+      font-size: 46px;
+      margin: 0;
+      color: #53BFF3; }
+  section .wrapper {
+    position: relative;
+    float: left;
+    width: 850px;
+    padding-bottom: 15px;
+    border-left: 10px solid #A5DCFC; }
+    section .wrapper .content {
+      float: right;
+      width: 790px;
+      padding: 40px;
+      border-radius: 5px;
+      background-color: #53BFF3; }
+      section .wrapper .content article p {
+        font-weight: 300;
+        line-height: 150%; }
+    section .wrapper .circleLarge {
+      position: absolute;
+      left: -33px;
+      top: -5px;
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      background-color: #A5DCFC;
+      z-index: 100; }
+      section .wrapper .circleLarge .circleSmall {
+        position: absolute;
+        top: 8px;
+        left: 8px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #0092D0; }
+    section .wrapper .triangle {
+      position: absolute;
+      left: 40px;
+      top: 10px;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 10px 10px 10px 0;
+      border-color: transparent #53BFF3 transparent transparent; }
+  section:hover .timestamp .time {
+    color: #0092D0; }
+  section:hover .wrapper .content {
+    background-color: #0092D0; }
+  section:hover .wrapper .triangle {
+    border-color: transparent #0092D0 transparent transparent; }
+
+/*# sourceMappingURL=main.css.map */
